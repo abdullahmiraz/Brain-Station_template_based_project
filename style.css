@@ -1,0 +1,594 @@
+* {
+	padding: 0;
+	margin: 0;
+    font-family: 'Recursive', sans-serif;
+    text-decoration: none;
+}
+.top-notch {
+	color: white;
+	background-color: black;
+	padding: 0px 20px;
+}
+.top-notch p {
+	display: inline-block;
+	padding: 15px 6px;
+	font-size: 0.8rem;
+}
+.top-notch a{
+	color: white;
+}
+.top-notch .right {
+	float: right;
+}
+nav {
+	background-color: #FFB606;
+	margin: 5px;
+	border-radius: 3px;
+	padding: 10px;
+    position: relative;
+    
+}
+.navbar .logo img{
+	height: 55px;
+	width: 60px;
+	padding: 2px 5px;
+
+}
+nav ul {
+	text-align: right;
+	padding-bottom: 13px;
+}
+nav ul li {
+	display: inline-flex;
+}
+nav ul li a {
+	text-decoration: none;
+	padding: 10px;
+	color: rgb(172, 13, 13);
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    
+}
+a:hover{
+    box-sizing: border-box;
+	border-radius: 7px;
+	color: wheat;
+	background-color: tomato;
+	box-shadow: 10px 10px 10px #C0C0BD;
+	transition: all .4s ease-out;
+	transform: translate(0px, 9px);
+}
+nav ul li a:hover {
+	box-sizing: border-box;
+	border-radius: 7px;
+	color: rgb(2, 16, 54);
+	background-color: tomato;
+	box-shadow: 10px 10px 10px #C0C0BD;
+	transition: all .4s ease-out;
+	transform: translate(0px, 9px);
+}
+nav h1 {
+	line-height: 25px;
+	padding-bottom: 10px;
+	float: left;
+}
+.all {
+	padding: 0px 60px;
+}
+.content {
+	margin-top: 60px;
+	width: 35%;
+	text-align: left;
+	font-size: 2.4rem;
+}
+.content button {
+	background-color: #FFB606;
+	padding: 6px 40px;
+	border-radius: 5px;
+	font-weight: 600;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    
+}
+button:hover{
+    color: rgb(14, 17, 27);
+	background-color: tomato;
+}
+button:active{
+    background-color:green;
+    outline: none;
+}
+.all .box1,.box2,.box3{
+	background-color: #C0C0BD;
+	justify-content: center;
+	margin: 50px 10px;
+	border: 1px solid red;
+	float: left;
+	height: 180px;
+	width: 380px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.all .box1:hover, .box2:hover, .box3:hover,button:hover {
+	box-sizing: border-box;
+	box-shadow: 10px 10px 10px rgb(15, 7, 1);
+	transition: all .4s ease;
+	transform: translate(0px, 9px);
+}
+.all a{
+	color: rgb(172, 13, 13);
+}
+.all img {
+	height: 180px;
+	float: left;
+}
+.all .box1 h3, .box2 h3, .box3 h3 {
+	padding: 40px 10px;
+}
+header {
+	background-image: url(src/idea.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 115vh;
+	width: auto;
+	transition: all 0.5s ease;
+    scroll-behavior: smooth;
+    
+}
+.course{
+
+	margin: 30px 70px;
+	margin-left: 110px;
+	margin-bottom: 160px !important;	
+	height: 80vh;
+    
+}
+
+.course .div1,.div2,.div3,.div4{
+    background-color: #C0C0BD;
+    justify-content: center;
+	margin: 55px 12px;
+	border: 1px solid red;
+	float: left;
+	height: 500px;
+	width: 260px ;
+	text-align: center;
+	
+	cursor: pointer;
+    border-radius: 4px;
+	text-align: center;
+	
+    
+}
+
+.course .div1:hover, .div2:hover,.div3:hover,.div4:hover{
+    box-sizing: border-box;
+	box-shadow: 10px 10px 10px darkslategray;
+	transition: all 1s ease;
+	transform: translate(0px, 9px);
+
+}
+.course .div1 .img1,.div2 .img2,.div3 .img3,.div4 .img4{
+    height: 210px;
+    width:260px;
+}
+.course .brain-logo{
+    height: 48px;
+    width: 48px;
+	padding: 20px;
+	position: relative;
+	top: -50px;
+}
+
+
+.course h2{
+	position: relative;
+	top: -40px;
+	color: rgb(18, 18, 128);
+}
+.course h1{
+	color: rgb(187, 6, 6);
+}
+.course .hr1{
+	
+	position: relative;
+	top: -30px;
+	border-bottom: 3px solid black;
+
+}
+.course .div1 a,.div2 a,.div3 a,.div4 a{
+	float: left;
+}
+.course div button{
+	margin: 15px;
+	padding:10px;
+	border:none;
+	border-radius: 3px;
+	background-color: rgb(241, 203, 31);
+	font-weight: 600;
+}
+.course i{
+	color: rgb(90, 36, 17);
+	background-color: transparent;
+}
+
+/* section2 code starts here  */
+
+.section2{
+	height: 110vh;
+	width: auto;
+	background-image: url(src/sketch-1080.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: all 0.5s ease;
+	margin: 70px 0px;
+	text-align: center;
+	
+	border-bottom: 2px solid black;
+}
+.section2 .div11{
+	font-size: 50px;
+	font-weight: 700;
+	width: 50%;
+	padding: 120px 20px;
+	padding-bottom: 20px !important;
+	background-color: #FFB606;
+	margin: 20px;
+	position: relative;
+	top: -0px;
+	text-align: center;
+	border-radius: 5px;
+	
+	
+	
+}
+
+.section2 .div22{
+	text-align: center;
+	padding: 100px 20px;
+	float: left;
+}
+.section2 .div22 div{
+	position: relative;
+	display: inline-block;
+	
+
+	
+
+}
+
+.section2 .div22 div p{
+	padding: 70px;
+	align-items: center;
+	font-weight: 900;
+	font-size: 20px;
+	
+	margin: auto;
+	height: 45px;
+	width: 45px;
+
+	text-align: center;
+	
+	float: left;
+	border: 2px solid yellow;
+	border-radius: 50%;
+	background-color: rgb(183, 223, 7);
+	
+}
+.section2 .div22 div p:hover{
+	background-color: transparent;
+	transition: all 0.8s ease;
+}
+
+/* login form section here  */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+form {
+	height: 410px;
+	width: 400px;
+	background-color: #FFB606;
+	color: black;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 50px 0px;
+	border-radius: 10px;
+	
+}
+
+form label {
+	font-size: 1.2rem;
+	font-size: 20px;
+}
+
+div form h2 {
+	border-bottom: 5px solid white;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	color: rgb(29, 1, 1);
+}
+
+form input {
+	width: 200px;
+	height: 40px;
+	border-radius: 4px;
+	border: 2px solid rgb(251, 254, 255);
+	margin-top: 10px;
+	background: none;
+	background-color: #C0C0BD;
+	text-align: center;
+	outline: none;
+	border: none;
+	position: relative;
+}
+
+form input:hover {
+	background-color: white !important;
+}
+
+form input[type="checkbox"]{
+	height: 13px;
+	width: 13px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+::placeholder {
+	color: rgb(28, 40, 48);
+}
+
+.login-form :hover {
+	transition: all 2s ease-in-out;
+	background-color: white;
+	box-shadow: 10px 10px 10px #5c5959;
+	
+}
+
+form input:hover {
+	color: rgb(172, 13, 13);
+	background-color: white;
+}
+
+form input[type="submit"]{
+	font-size: 15px;
+	font-weight: 900;
+	margin: 15px 80px;
+}
+
+form .p1 {
+	display: inline-flex;
+}
+
+form p a {
+	text-decoration: none;
+	padding: 5px 10px;
+	position: relative;
+	display: inline-flex;
+	color: rgb(7, 21, 61);
+}
+.login-form{
+	float: right;
+	margin: 50px 60px;
+	position: relative;
+	top: -350px;	
+}
+.section3{
+	height: 70px;
+	width: auto;
+	padding: 1px 90px;
+	border-bottom:1px solid black;
+	
+}
+.section4{
+	height: 70vh;
+	width:1200px;
+	margin: 70px;
+	
+	justify-content: center;
+	align-items: center;
+	
+	border-bottom:1px solid black;
+	
+	
+}
+.section4 .post1,.post2,.post3{
+	/* background-color: #C0C0BD; */
+	position: relative ;
+	padding: 10px;
+	/* border: 0px solid red; */
+	margin: 10px;
+	top: 20vh;
+	
+	float: left;
+	height: 180px;
+	width: 360px;
+	border-radius: 4px;
+	padding-top: 30px;
+
+}
+.section4 img:hover,button:hover {
+	box-sizing: border-box;
+	box-shadow: 10px 10px 10px rgb(15, 7, 1);
+	transition: all .4s ease;
+	transform: translate(0px, 9px);
+}
+.section4 .content99{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	font-size: 30px;
+	font-weight: 600;
+	
+	
+}
+/* .section4 .post2, .post3{
+	position: relative;
+	top: -57px !important;
+	
+} */
+
+.section4 img{
+	
+	height: 190px;
+	width: 380px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: 1px solid rgb(55, 62, 128);
+}
+.section4 .img1{
+	position: relative;
+	top: -110px;
+}
+.section4 .img2{
+	position: relative;
+	top: -110px;
+
+}
+.section4 .img3{
+	position: relative;
+	top: -110px;
+	
+}
+.section4 h1{
+	text-align:center;
+	position: relative;
+	bottom: 100px;
+	color: orange;
+	background-color:rgba(0,0,0,0.8);
+	width: 90%;
+	left: 30px;
+	
+}
+.section4 .heading2{
+	position: relative;
+	bottom: 100px;
+
+}
+.section4 .heading3{
+	position: relative;
+	bottom: 100px;
+}
+.section5{
+	height: 60vh;
+	width: auto;
+	transition: all 0.5s ease;
+	background-image: url(src/data\ storage.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.section5 button{
+	height: 200px;
+	width: 200px;
+	color: black;
+	background-color: orangered;
+	border: none;
+	border-radius: 50%;
+	position: relative;
+	left: 600px;
+	top: 100px;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+
+/* footer part added here  */
+
+footer{
+    height: auto;
+    width:auto;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 60px;
+    
+}
+footer .div111{
+    height: 400px;
+    width: 280px;
+    border: 0px solid red;
+    text-align: left;
+    float: auto;
+    margin:0px  auto;
+    
+    
+}
+footer .div111  a{
+    text-decoration: none;
+    text-align: left;
+    color: greenyellow;
+    
+    
+    
+}
+footer .div111 h1{
+    color: white;
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+footer .div111 h3{
+    padding: 20px 0px;
+}
+footer .quick a{
+    border-bottom: 1px dotted rgb(59, 52, 52) !important;
+    line-height: 40px !important;
+}
+footer .div111 input{
+    border-radius: 10px;
+    
+    padding: 5px 10px;
+    margin: 13px 0px;
+}
+::placeholder{
+    color: gray;
+    
+    
+}
+.message{
+    height: 70px;
+    
+}
+.foot{
+        text-align: center;
+    color: rgb(73, 13, 16);
+    background-color: rgb(231, 245, 215);
+    
+    margin: 0px 0px 0px 0px ;
+    padding: 20px 15px;
+}
+
+
+
+    
+
+
+
+
+/* master css */
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    
+}
+/* master css */
